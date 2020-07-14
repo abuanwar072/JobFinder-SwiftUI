@@ -35,6 +35,7 @@
 		88A3D98E24BDFCF200C4521D /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		88A3D99024BE175000C4521D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../Code/Flutter/YouTube/README.md; sourceTree = "<group>"; };
 		88A3D99124BE188100C4521D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		88A3D99224BE1EF900C4521D /* intro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = intro.gif; sourceTree = "<group>"; };
 		88B1038B24BAFC3B0019B6BD /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +57,7 @@
 				886E4BBB24B9ACDE0079F6F7 /* Products */,
 				88A3D99024BE175000C4521D /* README.md */,
 				88A3D99124BE188100C4521D /* 1.png */,
+				88A3D99224BE1EF900C4521D /* intro.gif */,
 			);
 			sourceTree = "<group>";
 		};
