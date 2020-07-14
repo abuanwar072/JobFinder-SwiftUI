@@ -13,6 +13,11 @@
 		886E4BC424B9ACDF0079F6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886E4BC324B9ACDF0079F6F7 /* Assets.xcassets */; };
 		886E4BC724B9ACDF0079F6F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886E4BC624B9ACDF0079F6F7 /* Preview Assets.xcassets */; };
 		886E4BCA24B9ACDF0079F6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886E4BC824B9ACDF0079F6F7 /* LaunchScreen.storyboard */; };
+		886E4BD324B9FFA70079F6F7 /* WelcomeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E4BD224B9FFA70079F6F7 /* WelcomeTitleView.swift */; };
+		886E4BD524B9FFF30079F6F7 /* TitleAndButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E4BD424B9FFF30079F6F7 /* TitleAndButtonView.swift */; };
+		886E4BD724BA018A0079F6F7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E4BD624BA018A0079F6F7 /* HomeView.swift */; };
+		88A3D98F24BDFCF200C4521D /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3D98E24BDFCF200C4521D /* Job.swift */; };
+		88B1038C24BAFC3B0019B6BD /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1038B24BAFC3B0019B6BD /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		886E4BC624B9ACDF0079F6F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		886E4BC924B9ACDF0079F6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		886E4BCB24B9ACDF0079F6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886E4BD224B9FFA70079F6F7 /* WelcomeTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTitleView.swift; sourceTree = "<group>"; };
+		886E4BD424B9FFF30079F6F7 /* TitleAndButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndButtonView.swift; sourceTree = "<group>"; };
+		886E4BD624BA018A0079F6F7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		88A3D98E24BDFCF200C4521D /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		88B1038B24BAFC3B0019B6BD /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,9 @@
 			children = (
 				886E4BBD24B9ACDE0079F6F7 /* AppDelegate.swift */,
 				886E4BBF24B9ACDE0079F6F7 /* SceneDelegate.swift */,
+				88B1038A24BAFC2A0019B6BD /* Model */,
 				886E4BC124B9ACDE0079F6F7 /* ContentView.swift */,
+				886E4BD124B9FF860079F6F7 /* View */,
 				886E4BC324B9ACDF0079F6F7 /* Assets.xcassets */,
 				886E4BC824B9ACDF0079F6F7 /* LaunchScreen.storyboard */,
 				886E4BCB24B9ACDF0079F6F7 /* Info.plist */,
@@ -73,6 +85,25 @@
 				886E4BC624B9ACDF0079F6F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		886E4BD124B9FF860079F6F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				886E4BD224B9FFA70079F6F7 /* WelcomeTitleView.swift */,
+				886E4BD424B9FFF30079F6F7 /* TitleAndButtonView.swift */,
+				886E4BD624BA018A0079F6F7 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88B1038A24BAFC2A0019B6BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88B1038B24BAFC3B0019B6BD /* Categories.swift */,
+				88A3D98E24BDFCF200C4521D /* Job.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				886E4BBE24B9ACDE0079F6F7 /* AppDelegate.swift in Sources */,
+				88B1038C24BAFC3B0019B6BD /* Categories.swift in Sources */,
 				886E4BC024B9ACDE0079F6F7 /* SceneDelegate.swift in Sources */,
+				886E4BD324B9FFA70079F6F7 /* WelcomeTitleView.swift in Sources */,
+				886E4BD724BA018A0079F6F7 /* HomeView.swift in Sources */,
+				886E4BD524B9FFF30079F6F7 /* TitleAndButtonView.swift in Sources */,
 				886E4BC224B9ACDE0079F6F7 /* ContentView.swift in Sources */,
+				88A3D98F24BDFCF200C4521D /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

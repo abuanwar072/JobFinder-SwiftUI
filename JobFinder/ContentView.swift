@@ -10,8 +10,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            VStack (alignment: .leading){
+                TitleAndButtonView()
+                Image("welcome")
+                .resizable()
+                    .aspectRatio(contentMode: .fill)
+            }
+//            .navigationBarTitle("")
+//            .navigationBarHidden(true)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+            .edgesIgnoringSafeArea(.bottom)
+        }
+    
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +32,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+let screen = UIScreen.main.bounds
+
+
+
